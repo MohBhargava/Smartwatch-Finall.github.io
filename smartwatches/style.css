@@ -1,0 +1,158 @@
+.body{
+  background-image: linear-gradient(to bottom right, snow, mistyrose, lightpink, pink);
+
+}
+.main{
+  width: 100%;
+}
+.header{
+  background-color: #270079;
+  color: antiquewhite;
+  height: 40px;
+  position: relative;
+  font-size: 35px;
+  font-family: "times new roman";
+  border: inset 3px;
+}
+
+.button{
+        background-color: #270079;
+        border: outset 0.3px #3F01C3;
+        color: antiquewhite;
+        text-align: center;
+        padding: 10px 10px;
+        font-family: "times new roman";
+        display: block;
+        font-size: 10px;
+        cursor: pointer;
+        width: 100%;
+      }
+.pic{
+  width: 100%;
+  height: 450px;
+  border: snow inset 0.3px;
+}
+.dropbtn{
+  background-color: #270079;
+        border: outset 0.3px antiquewhite;
+        color: antiquewhite;
+        text-align: center;
+        padding: 10px 10px;
+        font-family: "times new roman";
+        display: block;
+        width: 100%;
+        font-size: 15px;
+}
+.dropdown {
+  position: relative;
+  display: block;
+  font-size: 15px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: navy;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 20px;
+}
+.dropdown-content a {
+  color: antiquewhite;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: navy;}
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 97.5%;
+  border: outset 0.3px antiquewhite;
+  padding: 0px 0px;
+  margin: 0px;
+  font-family: "times new roman";
+  text-align: center;
+}
+
+.dropdown:hover .dropbtn {background-color: #270079;}
+
+.recents{
+  background-color: antiquewhite; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, snow, mistyrose, lightpink); /* Standard syntax (must be last) */
+  height: 300px;
+  margin-left: 10px;
+  margin-bottom: 10px; 
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-left: 0px;
+  padding-bottom: 0px; 
+  padding-right: 0px;
+  padding-top: 0px;
+  border: inset snow 7.5px;
+}
+.recents-head{
+  height: 60px;
+  border: outset seashell 5px;
+  padding: 0px;
+  text-align: center;
+  font
+}
+.recents-body{
+  line-height: 200%;
+  letter-spacing: 2px;
+  border: outset seashell 5px;
+  height: 220px;
+}
+.upcoming{
+  background-color: antiquewhite; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, snow, mistyrose, lightpink); /* Standard syntax (must be last) */
+  height: 300px;
+  margin-left: 10px;
+  margin-bottom: 10px; 
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-left: 0px;
+  padding-bottom: 0px; 
+  padding-right: 0px;
+  padding-top: 0px;
+  border: inset snow 7.5px;
+}
+.upcoming-head{
+  height: 60px;
+  border: outset seashell 5px;
+  padding: 0px;
+  text-align: center;
+  font
+}
+.upcoming-body{
+  line-height: 200%;
+  letter-spacing: 2px;
+  border: outset seashell 5px;
+  height: 220px;
+}
+.results{
+  background-color: antiquewhite; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, snow, mistyrose, lightpink); /* Standard syntax (must be last) */
+  height: 300px;
+  margin-left: 10px;
+  margin-bottom: 10px; 
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-left: 0px;
+  padding-bottom: 0px; 
+  padding-right: 0px;
+  padding-top: 0px;
+  border: inset snow 7.5px;
+}
+.results-head{
+  height: 60px;
+  border: outset seashell 5px;
+  padding: 0px;
+  text-align: center;
+}
+.results-body{
+  line-height: 200%;
+  letter-spacing: 2px;
+  border: outset seashell 5px;
+  height: 220px;
+}
