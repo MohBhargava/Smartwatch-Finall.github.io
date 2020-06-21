@@ -1,0 +1,209 @@
+.body{
+  background-color: whitesmoke;
+}
+.header{
+  background-color: black;
+  color: snow;
+  height: 40px;
+  position: relative;
+  font-size: 35px;
+  font-family: "times new roman";
+  text-align: center;
+}
+.dropbtn{
+        background-color: black;
+        border: outset 0.3px antiquewhite;
+        text-align: center;
+        padding: 10px 10px;
+        font-family: "times new roman";
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        height: 27.5px;
+        color: dimgray;
+}
+.dropdown {
+  position: relative;
+  display: block;
+  font-size: 15px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,0);
+  z-index: 1;
+  font-size: 15px;
+  color: snow;
+}
+.dropdown-content a {
+  color: snow;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: dimgray;}
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 100%;
+  border: outset 0.3px antiquewhite;
+  padding: 0px 0px;
+  margin: 0px;
+  font-family: "times new roman";
+  text-align: center;
+  color: snow;
+}
+
+.dropdown:hover .dropbtn {background-color: dimgray;}
+.box{
+	margin-top: 30px;
+	border: double black 3px;
+	width: 300px;
+	margin-left: 30px;
+  margin-right: 30px;
+  height: 700px;
+}
+.brand-link{
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+.image{
+	height: 150px;
+	width: 100%;
+	border: solid 1px black;
+}
+.brand-description{
+	color: dimgray;
+  
+}
+.smartwatch-pic{
+	width: 100%;
+	height: 400px;
+	border: solid black 2px;
+}
+.box{
+  background-image: linear-gradient(to bottom right, lightpink, lightcyan, seashell, lightskyblue);
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-gap: 15%;
+  grid-auto-rows: 500px;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  grid-auto-flow: column;
+}
+.animate-left{
+  margin: 0px;
+  animation-duration: 2.5s;
+  animation-name: slideinleft;
+ background-image: linear-gradient(to bottom right, whitesmoke, silver, whitesmoke, silver);
+}
+
+@keyframes slideinleft {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.animate-left2{
+  margin: 0px;
+  animation-duration: 2.5s;
+  animation-name: slideinleft;
+ background-image: linear-gradient(to bottom right, snow, lightpink, seashell, lightpink);
+}
+
+@keyframes slideinleft {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.animate-right {
+  margin: 0px;
+    position: absolute;
+    left: -100%;
+    width: 99%;
+    height: 350px;
+    background-image: linear-gradient(to bottom left, snow, lightpink, snow, lightpink);
+    color: dimgray;
+    -webkit-animation: slide 2.5s forwards;
+    animation: slide 2.5s forwards;
+    text-align: right;
+    font-size: 25px;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+
+
+.animate-pic{
+  border: solid black 1px;
+  height: 300px;
+  width: 300px;
+}
+.button-buy-5{
+  display: block;
+  width: 50px;
+  background-image: linear-gradient(to bottom right, lightblue, blue, royalblue, navy);
+  border-radius: 5px;
+  color: white;
+}
+.button-create-style{
+  display: block;
+  width: 200px;
+  background-color: lightgray;
+  border-radius: 10px;
+  color: seashell;
+  border: solid 3px;
+  border-color: seashell;
+  text-align: center;
+}
+p{
+  font-size: 25px;
+}
+footer{
+  background-color: black;
+  text-align: center;
+  color: snow;
+}
+.boxinplaceofimage{
+  font-size: 72px;
+  background: -webkit-linear-gradient(chartreuse, turquoise, darkorchid);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  border: double 10px white;
+}
+.box1{
+  background-color: black;
+  height: 501px;
+  width: 100%;
+}
+.home-brand-image{
+  width: 300px;
+  height: 150px;
+}
